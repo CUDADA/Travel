@@ -18,7 +18,10 @@ export default {
   data () {
     return {
       swiperOption: {
-        pagination: '.swiper-pagination',
+        // pagination: '.swiper-pagination',
+        pagination: {
+          el: '.swiper-pagination'
+        },
         loop: true,
         autoplay: true
       }
